@@ -9,10 +9,15 @@
 <body>
   <div class="container">
     <h1>Click the Egg!</h1>
+    <!-- Stopwatch for displaying number of clicks -->
+    <div id="stopwatch" class="stopwatch">Clicks: 0</div>
+    
     <div id="egg" class="egg" onclick="clickEgg()">
-      <img src=https://iili.io/2ZK946J.png" alt="Egg" />
+      <img src="https://via.placeholder.com/150?text=Egg" alt="Egg" />
     </div>
+    
     <div id="message" class="message"></div>
+    
     <button id="refreshButton" class="refresh-button" onclick="refreshPage()">Refresh</button>
   </div>
 
@@ -22,17 +27,6 @@
     Your browser does not support the audio element.
   </audio>
 
-  <script>
-    // Function to handle egg click
-    function clickEgg() {
-      const messageDiv = document.getElementById("message");
-      messageDiv.innerHTML = "You clicked the egg!";
-    }
-
-    // Function to refresh the page
-    function refreshPage() {
-      window.location.reload();
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
