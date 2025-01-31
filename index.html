@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egg Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Click the Egg!</h1>
+    <div id="egg" class="egg" onclick="clickEgg()">
+      <img src="https://via.placeholder.com/150?text=Egg" alt="Egg" />
+    </div>
+    <div id="message" class="message"></div>
+    <button id="refreshButton" class="refresh-button" onclick="refreshPage()">Refresh</button>
+  </div>
+
+  <!-- Satisfying song -->
+  <audio id="satisfyingSong" autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

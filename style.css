@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.egg {
+  margin: 20px;
+  cursor: pointer;
+}
+
+#egg img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s;
+}
+
+#egg:hover img {
+  transform: scale(1.1);
+}
+
+.message {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6347;
+}
+
+.refresh-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.refresh-button:hover {
+  background-color: #45a049;
+}
